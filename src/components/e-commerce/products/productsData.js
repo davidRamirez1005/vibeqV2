@@ -1,0 +1,22 @@
+export let
+    productsData = [
+        { id: 1, img1: `${import.meta.env.BASE_URL}images/pngs/2.png`, img2: `${import.meta.env.BASE_URL}images/pngs/1.png`, dicountBadge: 'bg-success', discount: '-33%', title: 'Women\'s Red Dress', oldPrice: '24.99', newPrice: '20.99', rating: 4 },
+        { id: 2, img1: `${import.meta.env.BASE_URL}images/pngs/4.png`, img2: `${import.meta.env.BASE_URL}images/pngs/3.png`, dicountBadge: '', discount: '', title: 'Casual Wear Top', oldPrice: '29.99', newPrice: '25.99', rating: 3 },
+        { id: 3, img1: `${import.meta.env.BASE_URL}images/pngs/7.png`, img2: `${import.meta.env.BASE_URL}images/pngs/8.png`, dicountBadge: 'bg-info', discount: '-50%', title: 'Party Wear Black Top', oldPrice: '19.99', newPrice: '17.99', rating: 5 },
+        { id: 4, img1: `${import.meta.env.BASE_URL}images/pngs/9.png`, img2: `${import.meta.env.BASE_URL}images/pngs/10.png`, dicountBadge: '', discount: '', title: 'Women\'s Rayon Top', oldPrice: '29.99', newPrice: '28.99', rating: 3 },
+        { id: 5, img1: `${import.meta.env.BASE_URL}images/pngs/11.png`, img2: `${import.meta.env.BASE_URL}images/pngs/12.png`, dicountBadge: 'bg-danger', discount: '-40%', title: 'Western Skirt & Top', oldPrice: '24.99', newPrice: '20.99', rating: 4 },
+        { id: 6, img1: `${import.meta.env.BASE_URL}images/pngs/1.png`, img2: `${import.meta.env.BASE_URL}images/pngs/2.png`, dicountBadge: '', discount: '', title: 'Party Wear Fancy Top', oldPrice: '17.99', newPrice: '14.99', rating: 5 },
+        { id: 7, img1: `${import.meta.env.BASE_URL}images/pngs/5.png`, img2: `${import.meta.env.BASE_URL}images/pngs/6.png`, dicountBadge: 'bg-warning', discount: '-33%', title: 'Long Floral Tunic Tops', oldPrice: '29.99', newPrice: '20.99', rating: 4 },
+        { id: 8, img1: `${import.meta.env.BASE_URL}images/pngs/13.png`, img2: `${import.meta.env.BASE_URL}images/pngs/31.png`, dicountBadge: '', discount: '', title: 'Long Slit Full Sleeve', oldPrice: '25.99', newPrice: '22.99', rating: 3 },
+        { id: 9, img1: `${import.meta.env.BASE_URL}images/pngs/33.png`, img2: `${import.meta.env.BASE_URL}images/pngs/32.png`, dicountBadge: '', discount: '', title: 'Long Floral Tunic Tops', oldPrice: '34.99', newPrice: '30.99', rating: 5 },
+    ],
+    mensOptions = ["Foot Wear", "T-shirt", "Men's Groming", "RUPEE", "Accessories"],
+    mensValue = null,
+    womenOptions = ["Western Wear", "Foot Wear", "Top Wear", "Bottom wear", "Beauty Groming", "Accessories", "Jewellery"],
+    womenValue = null,
+    electronicsOptions = ["Mobiles", "Laptops", "Gaming & Accessories", "Health Care Appliances"],
+    electronicsValue = null,
+    babyOptions = ["Boys Clothing", "Girls Clothing", "Toys", "Baby Care", "Kids Footwear"],
+    babyValue = null,
+    sportsOptions = ["Stationery", "Books", "Gaming ", "Music", "Exercise & fitness"],
+    sportsValue = null;
