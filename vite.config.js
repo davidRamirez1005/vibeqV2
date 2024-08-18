@@ -16,5 +16,8 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 160000,
+    rollupOptions: {
+      external: ['@fullcalendar/core']
+    }
   },
 })
