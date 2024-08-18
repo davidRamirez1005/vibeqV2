@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Pageheader from "@/shared/components/pageheader/pageheader.vue";
+import Pageheader from "../../../shared/components/pageheader/Pageheader.vue";
 import Calendardata from "./datacalendar.vue";
 export default {
   components: { Pageheader, Calendardata },
