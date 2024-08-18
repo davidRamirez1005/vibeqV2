@@ -11,12 +11,12 @@
         <div class="header-element">
           <div class="horizontal-logo">
             <router-link :to="`${url}dashboard`" class="header-logo">
-              <img src="/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-              <img src="/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-              <img src="/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
-              <img src="/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
-              <img src="/images/brand-logos/desktop-white.png" alt="logo" class="desktop-white">
-              <img src="/images/brand-logos/toggle-white.png" alt="logo" class="toggle-white">
+              <img src="" alt="logo" class="desktop-logo">
+              <img src="" alt="logo" class="toggle-logo">
+              <img src="" alt="logo" class="desktop-dark">
+              <img src="" alt="logo" class="toggle-dark">
+              <img src="" alt="logo" class="desktop-white">
+              <img src="" alt="logo" class="toggle-white">
             </router-link>
           </div>
         </div>
