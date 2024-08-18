@@ -33,10 +33,6 @@ import DropZone from "dropzone-vue";
 import 'dropzone-vue/dist/dropzone-vue.common.css';
 import Vue3EasyDataTable from "vue3-easy-data-table";
 import "vue3-easy-data-table/dist/style.css";
-// import jsVectorMap from 'jsvectormap';
-// import 'jsvectormap/dist/maps/world-merc.js'
-// import 'jsvectormap/dist/maps/world.js'
-// import 'jsvectormap/dist/css/jsvectormap.css'
 
 const app = createApp(App);
 app.component(VueCountdown.name, VueCountdown);

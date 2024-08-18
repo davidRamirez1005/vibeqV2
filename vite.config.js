@@ -1,11 +1,11 @@
 import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
+
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vibeq/',
+  base: '/',
   plugins: [
     vue(),
   ],
@@ -17,7 +17,7 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 160000,
     rollupOptions: {
-      external: ['@fullcalendar/core']
+      // external: ['@fullcalendar/core']
     }
   },
 })
