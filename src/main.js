@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import "./style.scss";
+import "./assets/css/stylesGlobal.css";
 import router from './router/index.js'
 import App from "./App.vue";
 import 'bootstrap/dist/js/bootstrap.bundle.js';
