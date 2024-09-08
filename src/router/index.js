@@ -48,6 +48,14 @@ const routes = [
             "../components/cryptocurrencies/cryptodashboard/cryptodashboard.vue"
           ),
       },
+      {
+        path: `${import.meta.env.BASE_URL}sitioWeb/crear`,
+        name: "crearSitioWeb",
+        component: () =>
+          import(
+            "../components/sitioweb/index.vue"
+          ),
+      },
 
       // {
       //   path: `${import.meta.env.BASE_URL}crypto/marketcap`,
