@@ -26,3 +26,32 @@ hr {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #a0a0a0; /* Color gris más oscuro al pasar el mouse */
   }
+
+  .multiselect-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-multiselect {
+    width: 100%;
+  }
+  
+  .multiselect__tags {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .multiselect__option--highlight {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .multiselect__option--selected {
+    background-color: #007bff;
+    color: #fff;
+  }
